@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67d5c0f9a9ef07e40ab9a81ae24753c8, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  <groundData>k__BackingField:
+    <baseSpeed>k__BackingField: 5
+  <airData>k__BackingField:
+    <jumpForce>k__BackingField: 9
+  <attackData>k__BackingField:
+    <attackInfoDatas>k__BackingField:
+    - <attackName>k__BackingField: Attack
+      <comboStateIndex>k__BackingField: 1
+      <comboTransitionTime>k__BackingField: 0.8
+      <forceTransitionTime>k__BackingField: 0.1
+      <force>k__BackingField: 1
+      <damage>k__BackingField: 15
+    - <attackName>k__BackingField: DoubleAttack
+      <comboStateIndex>k__BackingField: -1
+      <comboTransitionTime>k__BackingField: 0.8
+      <forceTransitionTime>k__BackingField: 0.1
+      <force>k__BackingField: 1
+      <damage>k__BackingField: 15
